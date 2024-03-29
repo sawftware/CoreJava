@@ -5,6 +5,7 @@ import Java__1_0.Polymorphism.Cat;
 import Java__1_0.Polymorphism.Dog;
 
 public class __5__Polymorphism {
+
     public static void main(final String[] args) {
         final Dog dog1 = new Dog();
         final Animal dog2 = new Dog();
@@ -17,4 +18,5 @@ public class __5__Polymorphism {
         cat1.makeSound();
         cat2.makeSound(2);
     }
+
 }

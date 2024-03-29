@@ -2,7 +2,8 @@ package Java__1_0;
 
 import Java__1_0.Strings.StringFormatting;
 
-public class __7__Strings {
+public class __8__Strings {
+
     public static void main(final String[] args) {
 
         final StringFormatting stringFormatting = new StringFormatting();
@@ -20,4 +21,5 @@ public class __7__Strings {
         stringFormatting.stringFormat();
         stringFormatting.stringBuilder();
     }
+
 }

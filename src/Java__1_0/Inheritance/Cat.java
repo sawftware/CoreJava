@@ -11,4 +11,5 @@ public class Cat extends Animal {
         System.out.println("Playing with ball and string..");
         super.setIsSleepy(true);
     }
+
 }

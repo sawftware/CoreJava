@@ -9,4 +9,5 @@ public class Dog extends Animal {
         System.out.println("Playing with bone toy..");
         this.setIsSleepy(true);
     }
+
 }

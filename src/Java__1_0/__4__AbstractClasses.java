@@ -6,6 +6,7 @@ import Java__1_0.AbstractClasses.Dog;
 import java.util.Vector;
 
 public class __4__AbstractClasses {
+
     public static void main(final String[] args) {
         final Dog dog1 = new Dog();
         final Animal dog2 = new Dog();
@@ -29,4 +30,5 @@ public class __4__AbstractClasses {
             }
         }
     }
+
 }

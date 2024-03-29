@@ -3,6 +3,7 @@ package Java__1_0;
 import Java__1_0.PrimativeTypes.PrimativeTypes;
 
 public class __1__PrimativeTypes {
+
     public static void main(final String[] args) {
         System.out.println("The maximum value for byte is: " + PrimativeTypes._BYTE);
         System.out.println("The maximum value for short is: " + PrimativeTypes._SHORT);
@@ -14,4 +15,5 @@ public class __1__PrimativeTypes {
                 "The values for boolean can be either: "
                         + PrimativeTypes._BOOLEAN_TRUE + " or " + PrimativeTypes._BOOLEAN_FALSE);
     }
+
 }

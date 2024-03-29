@@ -4,6 +4,7 @@ import Java__1_0.Encapsulation.Cat;
 import Java__1_0.Encapsulation.Dog;
 
 public class __3__Encapsulation {
+
     public static void main(final String[] args) {
         final Dog dog1 = new Dog();
         final Dog dog2 = new Dog("Hugo");
@@ -18,4 +19,5 @@ public class __3__Encapsulation {
         System.out.println("Dog1 makes the sound: " + dog1.getNoise());
         System.out.println("Cat1 makes the sound: " + cat1.getNoise());
     }
+
 }

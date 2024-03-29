@@ -4,7 +4,6 @@ public class StringFormatting {
 
     private final String helloWorld = "Hello, World!";
 
-
     public void sysout() {
         System.out.println(helloWorld);
     }
@@ -50,4 +49,5 @@ public class StringFormatting {
 
         System.out.println(stringBuilder);
     }
+
 }
