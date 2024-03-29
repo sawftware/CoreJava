@@ -8,7 +8,7 @@ public class Cat extends Animal {
     }
 
     @Override
-    public void makeSound(int times) {
+    public void makeSound(final int times) {
         for(int i = 0; i < times; i++) {
             makeSound();
         }

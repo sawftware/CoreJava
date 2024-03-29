@@ -6,7 +6,7 @@ public abstract class Animal {
 
     protected abstract void play();
 
-    protected void sleep() {
+    public void sleep() {
         System.out.println("Zzzz...");
         setIsSleepy(false);
     }

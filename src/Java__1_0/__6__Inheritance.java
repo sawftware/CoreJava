@@ -4,18 +4,21 @@ import Java__1_0.Inheritance.Dog;
 import Java__1_0.Inheritance.Cat;
 
 public class __6__Inheritance {
-    public static void main(String[] args) {
-        final Dog dog = new Dog();
-        dog.setIsSleepy(true);
+    public static void main(final String[] args) {
+        final Dog dog = new Dog(false);
+        final Cat cat = new Cat(true);
 
-        final Cat cat = new Cat();
-        cat.setIsSleepy(false);
-
-        if(!dog.isSleepy()) {
+        if(dog.isSleepy()) {
+            dog.sleep();
+        }
+        else {
             dog.play();
         }
 
-        if(!cat.isSleepy()) {
+        if(cat.isSleepy()) {
+            cat.sleep();
+        }
+        else {
             cat.play();
         }
     }

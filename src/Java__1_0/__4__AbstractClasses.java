@@ -7,16 +7,16 @@ import java.util.Vector;
 
 public class __4__AbstractClasses {
     public static void main(final String[] args) {
-        final Dog dog = new Dog();
+        final Dog dog1 = new Dog();
         final Animal dog2 = new Dog();
 
-        final Cat cat = new Cat();
+        final Cat cat1 = new Cat();
         final Animal cat2 = new Cat();
 
         final Vector<Animal> animals = new Vector<>();
-        animals.add(dog);
+        animals.add(dog1);
         animals.add(dog2);
-        animals.add(cat);
+        animals.add(cat1);
         animals.add(cat2);
 
         for (int index = 0; index < animals.size(); index++){
