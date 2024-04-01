@@ -1,4 +1,4 @@
-package Java__1_0.Interfaces;
+package Java__8.DefaultMethods;
 
 public class Cat implements IPrintable {
 

@@ -1,4 +1,6 @@
-package Java__1_0.Interfaces;
+package Java__8.DefaultMethods;
+
+import Java__8.DefaultMethods.IPrintable;
 
 public class Dog implements IPrintable {
 

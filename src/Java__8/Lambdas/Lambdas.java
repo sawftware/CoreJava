@@ -8,7 +8,10 @@ import java.util.stream.Collectors;
 public class Lambdas {
 
     public void sortArray() {
-        final List<String> names = Arrays.asList("Barry", "Charlie", "Alan", "Alice", "Amanda");
+
+        final List<String> names =
+                Arrays.asList("Barry", "Charlie", "Alan", "Alice", "Amanda");
+
         // Unsorted list
         System.out.println(names);
         // Sort alphabetically
@@ -23,6 +26,7 @@ public class Lambdas {
         //Sort reverse alphabetically
         names.sort(Comparator.reverseOrder());
         System.out.println(names);
+
     }
 
 }
