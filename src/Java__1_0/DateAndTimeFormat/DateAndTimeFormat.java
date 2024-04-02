@@ -1,9 +1,9 @@
-package Java__1_0.SimpleDateAndTimeFormat;
+package Java__1_0.DateAndTimeFormat;
 
 import java.util.Date;
 import java.text.SimpleDateFormat;
 
-public class SimpleDateAndTimeFormat {
+public class DateAndTimeFormat {
 
     final private Date date = new Date();
     final private SimpleDateFormat sdfHMA = new SimpleDateFormat("h:mm a");
@@ -19,12 +19,28 @@ public class SimpleDateAndTimeFormat {
         return new Date(date.getTime());
     }
 
+    public Date getYesterday() {
+        final long nowInMilliseconds = new Date().getTime();
+        final long twentyFourHoursInMilliseconds = 24 * 60 * 60 * 1000;
+
+        return new Date(nowInMilliseconds - twentyFourHoursInMilliseconds);
+    }
+
+    public Date getTomorrow() {
+        final long nowInMilliseconds = new Date().getTime();
+        final long twentyFourHoursInMilliseconds = 24 * 60 * 60 * 1000;
+
+        return new Date(nowInMilliseconds + twentyFourHoursInMilliseconds);
+    }
+
     public String getNowFormattedAsTimeHMA() {
         return sdfHMA.format(date.getTime());
     }
+
     public String getNowFormattedAsTimeDayMYY() {
         return sdfDMYY.format(date.getTime());
     }
+
     public String getNowFormattedAsTimeDayMYYYY() {
         return sdfDMYYYY.format(date.getTime());
     }

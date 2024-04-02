@@ -8,6 +8,7 @@ public class __1__PrimativeTypes {
         System.out.println("The maximum value for byte is: " + PrimativeTypes._BYTE);
         System.out.println("The maximum value for short is: " + PrimativeTypes._SHORT);
         System.out.println("The maximum value for int is: " + PrimativeTypes._INT);
+        System.out.println("The maximum value for double is: " + PrimativeTypes._DOUBLE);
         System.out.println("The maximum value for long is: " + PrimativeTypes._LONG);
         System.out.println("The maximum value for float is: " + PrimativeTypes._FLOAT);
         System.out.println("The maximum value for char is: " + PrimativeTypes._CHAR);

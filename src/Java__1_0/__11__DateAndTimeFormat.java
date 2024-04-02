@@ -1,16 +1,17 @@
 package Java__1_0;
 
 import java.util.Date;
-import Java__1_0.SimpleDateAndTimeFormat.SimpleDateAndTimeFormat;
+import Java__1_0.DateAndTimeFormat.DateAndTimeFormat;
 
-public class __11__SimpleDateAndTimeFormat {
+public class __11__DateAndTimeFormat {
 
     public static void main(final String[] args) {
 
-        final SimpleDateAndTimeFormat dateAndTime = new SimpleDateAndTimeFormat();
+        final DateAndTimeFormat dateAndTime = new DateAndTimeFormat();
 
-        final Date now = dateAndTime.getNow();
-        System.out.println(now);
+        System.out.println(dateAndTime.getNow());
+        System.out.println(dateAndTime.getYesterday());
+        System.out.println(dateAndTime.getTomorrow());
         System.out.println(dateAndTime.getNowFormattedAsTimeHMA());
         System.out.println(dateAndTime.getNowFormattedAsTimeDayMYY());
         System.out.println(dateAndTime.getNowFormattedAsTimeDayMYYYY());
@@ -18,6 +19,7 @@ public class __11__SimpleDateAndTimeFormat {
         System.out.println(dateAndTime.getNowFormattedAsDateDDMMYYYYY());
         System.out.println(dateAndTime.getNowFormattedAsDateYYMMDD());
         System.out.println(dateAndTime.getNowFormattedAsDateYYYYMMDD());
+
     }
 
 }

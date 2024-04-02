@@ -8,6 +8,8 @@ public class PrimativeTypes {
 
         public static final int _INT = 2147483647;
 
+        public static final double _DOUBLE = 1.7976931348623157e+308;
+
         public static final long _LONG = 9223372036854775807L;
 
         public static final float _FLOAT = 3.4028235E38f;
