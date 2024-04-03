@@ -1,6 +1,6 @@
-package Java__1_2;
+package Java__1_0.Collections;
 
-import Java__1_2.Collections.Array;
+import Java__1_0.Collections.Array.Array;
 
 import java.util.List;
 

@@ -1,10 +1,11 @@
 package Java__1_2;
 
-import Java__1_2.Collections.ArrayLists;
+import Java__1_2.Collections.List.ArrayLists;
 
 import java.util.ArrayList;
+import java.util.Stack;
 
-public class __2__ArrayLists {
+public class __1__ArrayLists {
 
     public static void main(final String[] args) {
 
@@ -52,6 +53,5 @@ public class __2__ArrayLists {
         System.out.println("ArrayList Size: " + ArrayLists.size(stringArrayList));
         ArrayLists.displayArrayList(stringArrayList);
         System.out.println("----");
-
     }
 }
