@@ -10,7 +10,7 @@ public class __1__ArrayLists {
     public static void main(final String[] args) {
 
         final ArrayList stringArrayList = new ArrayList();
-        ArrayLists.append( stringArrayList, "lime");
+        ArrayLists.append(stringArrayList, "lime");
         ArrayLists.add(stringArrayList, 1, "pineapple");
         ArrayLists.add(stringArrayList, 2, "apple");
 
